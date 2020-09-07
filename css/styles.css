@@ -1,0 +1,12 @@
+#contato{
+    text-align: center;
+}
+
+.contatos
+{
+    display: inline-block;
+}
+
+li{
+    list-style: none;
+}
