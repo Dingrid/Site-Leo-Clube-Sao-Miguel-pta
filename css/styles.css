@@ -2,11 +2,41 @@
     text-align: center;
 }
 
-.contatos
-{
-    display: inline-block;
-}
-
 li{
     list-style: none;
+    display: inline-block;
+   
+}
+
+.ico{
+    width: 50px;
+    height: 50px;
+    margin: 20px;
+}
+
+#mapa{
+    display: flex;
+    text-align: center;
+    margin: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a img{
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+.margem
+{
+    margin: 10px !important;
+}
+
+p{
+    text-align: center;
 }
