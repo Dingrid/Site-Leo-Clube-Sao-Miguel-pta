@@ -28,8 +28,8 @@ footer{
     text-align: center;
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
     bottom: 0;
     width: 100%;
 }
@@ -47,7 +47,7 @@ p{
     height: 5%;
 }
 
-#duvidas
+.tcentro
 {
     text-align: center;
 }
