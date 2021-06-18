@@ -1,0 +1,53 @@
+#container {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border: 1px dotted black;
+    width: 90% !important;
+    margin: auto;
+}
+
+table td {
+    border: 1px dotted #000000;
+    padding: 3px;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    table {
+        margin: 2px;
+        padding: 0;
+    }
+    #container {
+        margin-left: 5px;
+    }
+}
+
+@media (min-width: 200px) and (max-width: 359px) {
+    table {
+        margin: 2px;
+        padding: 0;
+    }
+    #container {
+        margin-left: 8px;
+    }
+}
+
+table td {
+    border: 1px dotted #000000;
+}
+
+@media (min-width: 360px) and (max-width: 640px) {
+    table {
+        margin: 2px;
+        padding: 0;
+    }
+    #container {
+        margin-left: 5px;
+    }
+}
